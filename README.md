@@ -155,6 +155,40 @@ npm run build
 
 The production build will be created in the `dist` folder, ready for deployment.
 
+### Troubleshooting
+
+If you encounter any issues while setting up:
+
+1. **"node is not recognized" or "npm is not recognized"**
+   - Make sure Node.js is installed from [nodejs.org](https://nodejs.org/)
+   - Restart your terminal/command prompt after installation
+   - Verify installation with `node --version` and `npm --version`
+
+2. **"git is not recognized"**
+   - Install Git from [git-scm.com](https://git-scm.com/) (Windows) or use `brew install git` (Mac)
+   - Git usually comes pre-installed on Mac and Linux
+
+3. **Port 5173 already in use**
+   - Vite will automatically try another port (like 5174, 5175, etc.)
+   - Check the terminal output for the actual port number
+   - Or stop the process using port 5173 and try again
+
+4. **Dependencies installation fails**
+   - Make sure you have an internet connection
+   - Try deleting `node_modules` folder and `package-lock.json`, then run `npm install` again
+   - On Windows, you might need to run PowerShell/Command Prompt as Administrator
+
+5. **"Cannot find module" errors**
+   - Make sure you ran `npm install` successfully
+   - Delete `node_modules` and `package-lock.json`, then run `npm install` again
+
+### System Requirements
+
+- **Node.js:** Version 16.x or higher (LTS version recommended)
+- **npm:** Comes with Node.js (version 7.x or higher)
+- **Git:** For cloning the repository (usually pre-installed on Mac/Linux)
+- **Modern Browser:** Chrome, Firefox, Edge, or Safari (latest versions)
+
 ## Project Structure
 
 ```
