@@ -108,13 +108,24 @@ A modern healthcare digitization platform built to streamline prescription manag
 
 ### Prerequisites
 
-Before you begin, make sure you have **Node.js** installed on your system:
-- Download and install Node.js from [https://nodejs.org/](https://nodejs.org/) (LTS version recommended)
-- Verify installation by running:
-  ```bash
-  node --version
-  npm --version
-  ```
+Before you begin, make sure you have the following installed on your system:
+
+1. **Node.js** (Required)
+   - Download and install from [https://nodejs.org/](https://nodejs.org/) (LTS version recommended)
+   - This also installs `npm` (Node Package Manager)
+   - Verify installation by running:
+     ```bash
+     node --version
+     npm --version
+     ```
+
+2. **Git** (Required for cloning)
+   - Download from [https://git-scm.com/](https://git-scm.com/) (Windows)
+   - Usually pre-installed on Mac and Linux
+   - Verify installation by running:
+     ```bash
+     git --version
+     ```
 
 ### Installation & Setup
 
