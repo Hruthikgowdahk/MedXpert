@@ -108,7 +108,7 @@ A modern healthcare digitization platform built to streamline prescription manag
 
 ```bash
 # Clone the repository
-git clone [repository-url]
+git clone https://github.com/Hruthikgowdahk/MedXpert.git
 
 # Install dependencies
 npm install
