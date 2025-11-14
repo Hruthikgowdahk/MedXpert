@@ -106,19 +106,54 @@ A modern healthcare digitization platform built to streamline prescription manag
 
 ## Getting Started
 
+### Prerequisites
+
+Before you begin, make sure you have **Node.js** installed on your system:
+- Download and install Node.js from [https://nodejs.org/](https://nodejs.org/) (LTS version recommended)
+- Verify installation by running:
+  ```bash
+  node --version
+  npm --version
+  ```
+
+### Installation & Setup
+
+Follow these steps to run the project on your laptop:
+
 ```bash
-# Clone the repository
+# Step 1: Clone the repository
 git clone https://github.com/Hruthikgowdahk/MedXpert.git
 
-# Install dependencies
+# Step 2: Navigate to the project directory
+cd MedXpert
+
+# Step 3: Install all dependencies
 npm install
 
-# Start development server
+# Step 4: Start the development server
 npm run dev
+```
 
-# Build for production
+After running `npm run dev`, open your browser and navigate to:
+- **Local:** http://localhost:5173 (or the port shown in the terminal)
+
+### Quick Start (All Commands at Once)
+
+For a faster setup, you can run all commands in sequence:
+
+```bash
+git clone https://github.com/Hruthikgowdahk/MedXpert.git && cd MedXpert && npm install && npm run dev
+```
+
+### Build for Production
+
+To create an optimized production build:
+
+```bash
 npm run build
 ```
+
+The production build will be created in the `dist` folder, ready for deployment.
 
 ## Project Structure
 
