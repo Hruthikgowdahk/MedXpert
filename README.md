@@ -2,6 +2,9 @@
 
 A modern healthcare digitization platform built to streamline prescription management and medical record-keeping in India.
 
+**About (app page):** Once running locally, visit `http://localhost:5173/about` to see the in-app About page.
+**Repository:** https://github.com/Hruthikgowdahk/MedXpert
+
 ## Tech Stack
 
 ### Frontend

@@ -3,6 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "description": "Digital prescription and medical record manager for MedXpert",
+  "homepage": "https://github.com/Hruthikgowdahk/MedXpert",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

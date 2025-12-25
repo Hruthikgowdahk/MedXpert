@@ -17,6 +17,10 @@ const Home: React.FC = () => {
     navigate('/login');
   };
 
+  const handleAbout = () => {
+    navigate('/about');
+  };
+
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
@@ -30,15 +34,23 @@ const Home: React.FC = () => {
               <p className="text-2xl mb-10 text-purple-100">
                 Revolutionizing Healthcare Management
               </p>
-              <button 
-                onClick={handleLogin}
-                className="bg-white hover:bg-purple-50 text-lg font-bold px-10 py-4 rounded-full transition-all duration-300 transform hover:-translate-y-1 hover:shadow-2xl shadow-lg relative overflow-hidden group"
-              >
-                <span className="relative z-10 bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
-                  Get Started
-                </span>
-                <div className="absolute inset-0 bg-gradient-to-r from-indigo-100 to-purple-100 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-              </button>
+              <div className="flex justify-center space-x-4">
+                <button 
+                  onClick={handleLogin}
+                  className="bg-white hover:bg-purple-50 text-lg font-bold px-10 py-4 rounded-full transition-all duration-300 transform hover:-translate-y-1 hover:shadow-2xl shadow-lg relative overflow-hidden group"
+                >
+                  <span className="relative z-10 bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
+                    Get Started
+                  </span>
+                  <div className="absolute inset-0 bg-gradient-to-r from-indigo-100 to-purple-100 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                </button>
+                <button
+                  onClick={handleAbout}
+                  className="border border-white/70 text-white text-lg font-bold px-10 py-4 rounded-full transition-all duration-300 hover:bg-white/10"
+                >
+                  About
+                </button>
+              </div>
             </div>
           </div>
 
